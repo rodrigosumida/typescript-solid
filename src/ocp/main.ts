@@ -2,12 +2,16 @@
 Open/closed principle
 Entidades devem estar abertas para extensão, mas fechadas para modificação
 */
-import { Messaging } from "./services/messaging";
-import { Order } from "./classes/order";
-import { Persistency } from "./services/persistency";
-import { Product } from "./classes/product";
-import { ShoppingCart } from "./classes/shopping-cart";
-import { FiftyPercentDiscount, NoDiscount, TenPercentDiscount } from "./classes/discount";
+import { Messaging } from './services/messaging';
+import { Order } from './classes/order';
+import { Persistency } from './services/persistency';
+import { Product } from './classes/product';
+import { ShoppingCart } from './classes/shopping-cart';
+import {
+  FiftyPercentDiscount,
+  NoDiscount,
+  TenPercentDiscount,
+} from './classes/discount';
 
 // const fiftyPercentDiscount = new FiftyPercentDiscount();
 // const tenPercentDiscount = new TenPercentDiscount();
